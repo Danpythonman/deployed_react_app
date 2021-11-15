@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorldClass from "./components/HelloWorldClass";
 import HelloWorldFunction from "./components/HelloWorldFunction";
 import Tasks from "./components/Tasks";
+import WebcamCapture from "./components/WebcamCapture";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <HelloWorldClass />
         <HelloWorldFunction />
         <Tasks />
+        <WebcamCapture />
       </header>
     </div>
   );
